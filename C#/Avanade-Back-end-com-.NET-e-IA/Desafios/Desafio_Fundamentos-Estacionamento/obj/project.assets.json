@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\marco\\Documentos\\Repositorios\\Bootcamps-DIO\\C#\\Avanade-Back-end_com-.NET_e_IA\\Desafios\\Desafio_Fundamentos-Estacionamento\\DesafioFundamentos.csproj",
+      "projectUniqueName": "C:\\Users\\marco\\Documentos\\Repositorios\\teste\\Bootcamps-DIO\\C#\\Avanade-Back-end-com-.NET-e-IA\\Desafios\\Desafio_Fundamentos-Estacionamento\\DesafioFundamentos.csproj",
       "projectName": "DesafioFundamentos",
-      "projectPath": "C:\\Users\\marco\\Documentos\\Repositorios\\Bootcamps-DIO\\C#\\Avanade-Back-end_com-.NET_e_IA\\Desafios\\Desafio_Fundamentos-Estacionamento\\DesafioFundamentos.csproj",
+      "projectPath": "C:\\Users\\marco\\Documentos\\Repositorios\\teste\\Bootcamps-DIO\\C#\\Avanade-Back-end-com-.NET-e-IA\\Desafios\\Desafio_Fundamentos-Estacionamento\\DesafioFundamentos.csproj",
       "packagesPath": "C:\\Users\\marco\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\marco\\Documentos\\Repositorios\\Bootcamps-DIO\\C#\\Avanade-Back-end_com-.NET_e_IA\\Desafios\\Desafio_Fundamentos-Estacionamento\\obj\\",
+      "outputPath": "C:\\Users\\marco\\Documentos\\Repositorios\\teste\\Bootcamps-DIO\\C#\\Avanade-Back-end-com-.NET-e-IA\\Desafios\\Desafio_Fundamentos-Estacionamento\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
