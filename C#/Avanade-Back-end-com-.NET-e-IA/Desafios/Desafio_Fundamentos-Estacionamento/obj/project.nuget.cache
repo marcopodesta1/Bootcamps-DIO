@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8qwHQAwIKqc=",
+  "dgSpecHash": "seGx+OJfV80=",
   "success": true,
-  "projectFilePath": "C:\\Users\\marco\\Documentos\\Repositorios\\Bootcamps-DIO\\C#\\Avanade-Back-end_com-.NET_e_IA\\Desafios\\Desafio_Fundamentos-Estacionamento\\DesafioFundamentos.csproj",
+  "projectFilePath": "C:\\Users\\marco\\Documentos\\Repositorios\\teste\\Bootcamps-DIO\\C#\\Avanade-Back-end-com-.NET-e-IA\\Desafios\\Desafio_Fundamentos-Estacionamento\\DesafioFundamentos.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\marco\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.36\\microsoft.netcore.app.ref.6.0.36.nupkg.sha512",
     "C:\\Users\\marco\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.36\\microsoft.windowsdesktop.app.ref.6.0.36.nupkg.sha512",
