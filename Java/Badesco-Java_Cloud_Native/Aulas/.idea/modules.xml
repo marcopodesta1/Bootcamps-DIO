@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/CONTROLE-FLUXO/CONTROLE-FLUXO.iml" filepath="$PROJECT_DIR$/CONTROLE-FLUXO/CONTROLE-FLUXO.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ContaBanco/ContaBanco.iml" filepath="$PROJECT_DIR$/ContaBanco/ContaBanco.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DOCUMENTACAO/DOCUMENTACAO.iml" filepath="$PROJECT_DIR$/DOCUMENTACAO/DOCUMENTACAO.iml" />
+      <module fileurl="file://$PROJECT_DIR$/desafios/DesafioControleFluxo/DesafioControleFluxo.iml" filepath="$PROJECT_DIR$/desafios/DesafioControleFluxo/DesafioControleFluxo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exercícios/Exercícios.iml" filepath="$PROJECT_DIR$/Exercícios/Exercícios.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JAVA-TERMINAL/JAVA-TERMINAL.iml" filepath="$PROJECT_DIR$/JAVA-TERMINAL/JAVA-TERMINAL.iml" />
+      <module fileurl="file://$PROJECT_DIR$/desafios/POO-iPhone/POO-iPhone.iml" filepath="$PROJECT_DIR$/desafios/POO-iPhone/POO-iPhone.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SISTEMA-SMART-TV/SISTEMA-SMART-TV.iml" filepath="$PROJECT_DIR$/SISTEMA-SMART-TV/SISTEMA-SMART-TV.iml" />
+      <module fileurl="file://$PROJECT_DIR$/debugging/debugging.iml" filepath="$PROJECT_DIR$/debugging/debugging.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/dio-trilha-java-basico.iml" filepath="$PROJECT_DIR$/.idea/dio-trilha-java-basico.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tipos-variaveis/tipos-variaveis.iml" filepath="$PROJECT_DIR$/tipos-variaveis/tipos-variaveis.iml" />
+    </modules>
+  </component>
+</project>
