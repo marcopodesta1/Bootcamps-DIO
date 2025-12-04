@@ -1,0 +1,205 @@
+namespace DICOMViewer.Presentation.View
+{
+    partial class Main
+    {
+        private System.ComponentModel.IContainer components = null;
+        private System.Windows.Forms.PictureBox pbImage;
+        private System.Windows.Forms.Panel pnlDicom;
+        private System.Windows.Forms.ProgressBar pbProgress;
+        private System.Windows.Forms.TrackBar trackBar;
+        private System.Windows.Forms.Panel pnlButtons;
+        private System.Windows.Forms.Button btnCancel;
+        private System.Windows.Forms.Label lblResolution;
+        private System.Windows.Forms.TextBox txtResolution;
+        private System.Windows.Forms.Label lblCount;
+        private System.Windows.Forms.Button btnSave;
+        private System.Windows.Forms.Button btnOpen;
+        private System.Windows.Forms.Label lblExam;
+
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        private void InitializeComponent()
+        {
+            this.pbImage = new System.Windows.Forms.PictureBox();
+            this.pnlDicom = new System.Windows.Forms.Panel();
+            this.pbProgress = new System.Windows.Forms.ProgressBar();
+            this.trackBar = new System.Windows.Forms.TrackBar();
+            this.pnlButtons = new System.Windows.Forms.Panel();
+            this.btnCancel = new System.Windows.Forms.Button();
+            this.lblResolution = new System.Windows.Forms.Label();
+            this.txtResolution = new System.Windows.Forms.TextBox();
+            this.lblCount = new System.Windows.Forms.Label();
+            this.btnSave = new System.Windows.Forms.Button();
+            this.btnOpen = new System.Windows.Forms.Button();
+            this.lblExam = new System.Windows.Forms.Label();
+            ((System.ComponentModel.ISupportInitialize)(this.pbImage)).BeginInit();
+            this.pnlDicom.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.trackBar)).BeginInit();
+            this.pnlButtons.SuspendLayout();
+            this.SuspendLayout();
+            // 
+            // pbImage
+            // 
+            this.pbImage.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pbImage.BackColor = System.Drawing.Color.Black;
+            this.pbImage.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pbImage.Location = new System.Drawing.Point(0, 0);
+            this.pbImage.Name = "pbImage";
+            this.pbImage.Size = new System.Drawing.Size(790, 790);
+            this.pbImage.TabIndex = 0;
+            this.pbImage.TabStop = false;
+            // 
+            // pnlDicom
+            // 
+            this.pnlDicom.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pnlDicom.BackColor = System.Drawing.Color.Black;
+            this.pnlDicom.Controls.Add(this.lblExam);
+            this.pnlDicom.Controls.Add(this.pbProgress);
+            this.pnlDicom.Controls.Add(this.trackBar);
+            this.pnlDicom.Controls.Add(this.pbImage);
+            this.pnlDicom.Location = new System.Drawing.Point(1, 39);
+            this.pnlDicom.Name = "pnlDicom";
+            this.pnlDicom.Size = new System.Drawing.Size(837, 790);
+            this.pnlDicom.TabIndex = 1;
+            // 
+            // pbProgress
+            // 
+            this.pbProgress.Anchor = System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right;
+            this.pbProgress.Location = new System.Drawing.Point(134, 400);
+            this.pbProgress.Name = "pbProgress";
+            this.pbProgress.Size = new System.Drawing.Size(566, 23);
+            this.pbProgress.TabIndex = 3;
+            this.pbProgress.Visible = false;
+            // 
+            // trackBar
+            // 
+            this.trackBar.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.trackBar.BackColor = System.Drawing.Color.Black;
+            this.trackBar.Location = new System.Drawing.Point(789, 0);
+            this.trackBar.Name = "trackBar";
+            this.trackBar.Orientation = System.Windows.Forms.Orientation.Vertical;
+            this.trackBar.Size = new System.Drawing.Size(45, 790);
+            this.trackBar.TabIndex = 2;
+            this.trackBar.Visible = false;
+            this.trackBar.ValueChanged += new System.EventHandler(this.trackBar_ValueChanged);
+            // 
+            // pnlButtons
+            // 
+            this.pnlButtons.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pnlButtons.Controls.Add(this.btnCancel);
+            this.pnlButtons.Controls.Add(this.lblResolution);
+            this.pnlButtons.Controls.Add(this.txtResolution);
+            this.pnlButtons.Controls.Add(this.lblCount);
+            this.pnlButtons.Controls.Add(this.btnSave);
+            this.pnlButtons.Controls.Add(this.btnOpen);
+            this.pnlButtons.Location = new System.Drawing.Point(2, 2);
+            this.pnlButtons.Name = "pnlButtons";
+            this.pnlButtons.Size = new System.Drawing.Size(837, 35);
+            this.pnlButtons.TabIndex = 2;
+            // 
+            // btnCancel
+            // 
+            this.btnCancel.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btnCancel.Enabled = false;
+            this.btnCancel.Location = new System.Drawing.Point(566, 4);
+            this.btnCancel.Name = "btnCancel";
+            this.btnCancel.Size = new System.Drawing.Size(133, 27);
+            this.btnCancel.TabIndex = 5;
+            this.btnCancel.Text = "Cancelar";
+            this.btnCancel.UseVisualStyleBackColor = true;
+            this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
+            // 
+            // lblResolution
+            // 
+            this.lblResolution.AutoSize = true;
+            this.lblResolution.Location = new System.Drawing.Point(6, 10);
+            this.lblResolution.Name = "lblResolution";
+            this.lblResolution.Size = new System.Drawing.Size(64, 15);
+            this.lblResolution.TabIndex = 4;
+            this.lblResolution.Text = "Resolução:";
+            // 
+            // txtResolution
+            // 
+            this.txtResolution.Location = new System.Drawing.Point(71, 6);
+            this.txtResolution.MaxLength = 3;
+            this.txtResolution.Name = "txtResolution";
+            this.txtResolution.Size = new System.Drawing.Size(40, 23);
+            this.txtResolution.TabIndex = 3;
+            this.txtResolution.Text = "300";
+            this.txtResolution.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtResolution.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtResolution_KeyPress);
+            // 
+            // lblCount
+            // 
+            this.lblCount.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.lblCount.Location = new System.Drawing.Point(758, 10);
+            this.lblCount.Name = "lblCount";
+            this.lblCount.Size = new System.Drawing.Size(66, 15);
+            this.lblCount.TabIndex = 2;
+            this.lblCount.Text = "0 / 0";
+            this.lblCount.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.lblCount.Visible = false;
+            // 
+            // btnSave
+            // 
+            this.btnSave.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btnSave.Enabled = false;
+            this.btnSave.Location = new System.Drawing.Point(366, 4);
+            this.btnSave.Name = "btnSave";
+            this.btnSave.Size = new System.Drawing.Size(133, 27);
+            this.btnSave.TabIndex = 1;
+            this.btnSave.Text = "Save";
+            this.btnSave.UseVisualStyleBackColor = true;
+            this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
+            // 
+            // btnOpen
+            // 
+            this.btnOpen.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btnOpen.Location = new System.Drawing.Point(166, 4);
+            this.btnOpen.Name = "btnOpen";
+            this.btnOpen.Size = new System.Drawing.Size(133, 27);
+            this.btnOpen.TabIndex = 0;
+            this.btnOpen.Text = "Abrir";
+            this.btnOpen.UseVisualStyleBackColor = true;
+            this.btnOpen.Click += new System.EventHandler(this.btnOpen_Click);
+            // 
+            // lblExam
+            // 
+            this.lblExam.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.lblExam.ForeColor = System.Drawing.Color.White;
+            this.lblExam.Location = new System.Drawing.Point(712, 16);
+            this.lblExam.Name = "lblExam";
+            this.lblExam.Size = new System.Drawing.Size(66, 15);
+            this.lblExam.TabIndex = 6;
+            this.lblExam.Text = "0 / 0";
+            this.lblExam.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.lblExam.Visible = false;
+            // 
+            // Main
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.ClientSize = new System.Drawing.Size(838, 827);
+            this.Controls.Add(this.pnlButtons);
+            this.Controls.Add(this.pnlDicom);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
+            this.Name = "Main";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "DICOM Viewer";
+            ((System.ComponentModel.ISupportInitialize)(this.pbImage)).EndInit();
+            this.pnlDicom.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.trackBar)).EndInit();
+            this.pnlButtons.ResumeLayout(false);
+            this.pnlButtons.PerformLayout();
+            this.ResumeLayout(false);
+        }
+    }
+}
